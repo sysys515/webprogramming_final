@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>기온에 따른 옷차림 추천</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="background">
+    <header>
+      <div id="search">
+        <input type="text" placeholder="군포시" />
+        <button></button>
+      </div>
+    </header>
+    <section>
+      <div class="temp"></div>
+      <div class="icon"></div>
+      <div class="maxtemp">최고기온: </div>
+      <div class="mintemp">최저기온: </div>
+      <div class="feelslike">체감온도: </div>
+      <div class="humidity">습도: </div>
+      <div class="clouds">구름량: </div>
+    </section>
+    <section>
+      <div id="text">추천하는 옷</div>
+      <div class="clothes"></div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
